@@ -1,0 +1,25 @@
+Package: asesmso
+Type: Package
+Title: ASES Analytic Toolkit on MS Office
+Version: 0.1.0
+Date: 2019-6-14
+Author: Yiying Wang <wangy@aetna.com>
+Maintainer: Yiying Wang <wangy@aetna.com>
+Contributor: Shanshan Zou <zous@aetna.com>
+Description: This package contains frequently used tool functions on MS Office
+    for ASES.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+    aseskit,
+    cellranger,
+    compiler,
+    gWidgets2,
+    RDCOMClient,
+    stringi,
+    utils
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat,
+    vdiffr
